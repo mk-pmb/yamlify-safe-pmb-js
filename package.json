@@ -1,0 +1,29 @@
+{ "name": "yamlify-safe-pmb",
+  "version": "0.0.1",
+  "description": "YAMLify your data with my favorite YAMLifier and YAMLification settings, whatever those currently are.",
+  "keywords": [ "YAML" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/yamlify-safe-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/yamlify-safe-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/yamlify-safe-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "src/yamlify.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
