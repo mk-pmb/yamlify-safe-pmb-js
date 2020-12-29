@@ -22,16 +22,9 @@ Returns a YAMLified representation of data, as a string.
 
 
 
-### .header()
+### .header(), .footer(), .wrapBody()
 
-Returns a string that can be used as the file header of a YAML file.
-
-
-
-### .footer()
-
-Returns a string that can be used as the last part of a YAML file,
-e.g. to confirm completeness of transmission.
+Those from [yaml-head-foot-pmb](http://npm.im/yaml-head-foot-pmb).
 
 
 
