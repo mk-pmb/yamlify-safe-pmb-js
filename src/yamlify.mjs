@@ -1,7 +1,7 @@
 // -*- coding: utf-8, tab-width: 2 -*-
 
 import ersatzYamlify from 'jsonbased-yamlify-pmb';
-import mlsPipe from 'jsonbased-yamlify-pmb/src/multiLineStringPipe';
+import mlsPipe from 'jsonbased-yamlify-pmb/src/multiLineStringPipe.mjs';
 import headFoot from 'yaml-head-foot-pmb';
 
 const EX = function yamlify(x) { return mlsPipe(ersatzYamlify(x)); };
