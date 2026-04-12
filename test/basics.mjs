@@ -15,11 +15,11 @@ test('Basics', (t) => {
     greeting: 'hello\nworld!\n',
   };
   const yaml = yamlify(data);
-  console.debug(typeof yaml);
+  equal(typeof yaml, 'string');
   equal.lines(yaml, [
     'coffee: yes',
     'sugar: no',
-    'cookie: "sess=0"',
+    "cookie: 'sess=0'",
     'greeting: |',
     '  hello',
     '  world!',
